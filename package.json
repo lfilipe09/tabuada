@@ -1,0 +1,25 @@
+{
+  "name": "tabuada",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\mocha --reporter spec **/*.test.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@sinonjs/referee-sinon": "^10.1.0",
+    "chai": "^4.3.4",
+    "jsverify": "^0.8.4",
+    "knuth-shuffle": "^1.0.8",
+    "mocha": "^9.1.1",
+    "sinon": "^11.1.2"
+  }
+}
